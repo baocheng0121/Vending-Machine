@@ -1,0 +1,44 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.1.0'
+    }
+}
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'jacoco'
+
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.1.0','junit:junit:4.12'
+
+    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.1.0',
+            'org.junit.vintage:junit-vintage-engine:5.1.0',
+            'org.junit.platform:junit-platform-launcher:1.1.0',
+            'org.junit.platform:junit-platform-runner:1.1.0'
+     implementation 'com.googlecode.json-simple:json-simple:1.1.1'	
+}
+test {
+    useJUnitPlatform()
+}
+jacocoTestReport {
+    reports {
+        html.enabled = true
+        csv.enabled = true
+    }
+}
+
+run{
+    standardInput = System.in
+}
+
+
+application {
+    // Define the main class for the application
+    mainClassName = 'vendingmachine.App'
+}

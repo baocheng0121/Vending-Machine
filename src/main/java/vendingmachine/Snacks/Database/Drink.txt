@@ -1,0 +1,5 @@
+4001,Minerall Water,7,2.5,1
+4002,Sprite,7,3.0,9
+4003,Coca cola,7,3.0,3
+4004,Pepsi,7,3.0,16
+4005,Juice,7,4.0,7

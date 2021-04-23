@@ -1,0 +1,22 @@
+Candy: 
+1001; Mentos; 7; 5.5; 4
+1002; Sour Patch; 7; 6.0; 0
+1003; Skittles; 7; 7.0; 0
+Chips: 
+2001; Smiths; 7; 2.5; 0
+2002; Pringles; 7; 3.0; 0
+2003; Kettle; 7; 2.0; 0
+2004; Thins; 7; 2.8; 0
+Chocolate: 
+3001; Mars; 7; 100.0; 0
+3002; M&M; 7; 3.0; 2
+3003; Bounty; 7; 2.6; 2
+3004; Sneakers; 7; 2.2; 2
+3005; New Choco; 7; 1000.0; 0
+Drink: 
+4001; Minerall Water; 7; 2.5; 1
+4002; Sprite; 7; 3.0; 9
+4003; Coca cola; 7; 3.0; 3
+4004; Pepsi; 5; 3.0; 16
+4005; Juice; 7; 4.0; 7
+4006; Billy; 7; 100.0; 0

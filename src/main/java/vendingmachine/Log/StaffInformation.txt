@@ -1,0 +1,3 @@
+cashier,cashier,cashier
+seller,seller,seller
+owner,owner,owner
